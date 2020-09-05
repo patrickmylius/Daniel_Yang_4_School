@@ -1,6 +1,6 @@
 package Chap1;
 
-public class iLoveJava {
+public class Exercise_01_02 {
     public static void main(String[] args) {
         //1.2
         System.out.println("I love Java");

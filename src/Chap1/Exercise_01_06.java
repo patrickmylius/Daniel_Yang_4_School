@@ -1,6 +1,6 @@
 package Chap1;
 
-public class summationOfASeries {
+public class Exercise_01_06 {
     public static void main(String[] args) {
         //1.6
         System.out.println("1 + 2 + 3 + 4 + 5 + 6 + 7 + 9 + 9 + 10");
