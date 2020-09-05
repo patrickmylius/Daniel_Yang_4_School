@@ -1,3 +1,5 @@
+package Chap1;
+
 public class printAtable {
     public static void main(String[] args) {
         //1.4

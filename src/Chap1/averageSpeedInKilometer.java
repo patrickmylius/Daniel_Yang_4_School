@@ -1,3 +1,5 @@
+package Chap1;
+
 public class averageSpeedInKilometer {
 
     public static void main(String[] args) {

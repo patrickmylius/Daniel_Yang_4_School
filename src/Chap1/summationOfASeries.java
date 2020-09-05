@@ -1,3 +1,5 @@
+package Chap1;
+
 public class summationOfASeries {
     public static void main(String[] args) {
         //1.6
