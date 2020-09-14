@@ -3,7 +3,6 @@ package Chap2;
 // converts it to kilometers,
 // and display the result. The forumula for the conversion is as follows:
 // 1 mile = 1.6 kilometers
-
 import java.util.Scanner;
 
 public class Exercise_02_01 {
