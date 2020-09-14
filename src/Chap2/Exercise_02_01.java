@@ -11,17 +11,11 @@ public class Exercise_02_01 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many miles do you want to convert?: ");
-        //takes input from console and sets miles
+        //takes user input from console and sets miles
         double miles = input.nextDouble();
         //Takes scanner input, multiply with 1.6, then declares the result to double kilometers.
         double kilometers = miles * 1.6;
-        //Prints
+        //Prints the converted kilometers in console
         System.out.println(miles + " " + "miles" + " " + " = " + kilometers + " " + "kilometers");
-
-
-
-
-
-
     }
 }
