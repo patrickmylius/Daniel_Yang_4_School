@@ -9,7 +9,7 @@ public class Exercise_02_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("How many miles do you want to convert?: ");
+        System.out.print("How many miles do you want to convert?: ");
         //takes user input from console and sets miles
         double miles = input.nextDouble();
         //Takes scanner input, multiply with 1.6, then declares the result to double kilometers.
