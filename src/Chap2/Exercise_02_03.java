@@ -1,4 +1,6 @@
 package Chap2;
+// (Convert meters into feet) Write a program that reads a number n meters,
+// converts it to feet, and displays the result. One meter is 3.2786
 
 import java.util.Scanner;
 
