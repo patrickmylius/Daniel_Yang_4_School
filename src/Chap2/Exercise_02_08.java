@@ -7,7 +7,7 @@ public class Exercise_02_08 {
         //sets Scanner to input
         Scanner input = new Scanner(System.in);
         //souts user to enter the specific offset + or -
-        System.out.println("Enter the time zone offset to GMT: ");
+        System.out.print("Enter the time zone offset to GMT: ");
         //sets console input to gmt
         int gmt = input.nextInt();
         //sets current system time to totalMiliseconds
