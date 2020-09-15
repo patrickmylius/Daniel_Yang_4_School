@@ -1,4 +1,6 @@
 package Chap2;
+// (Physics Acceleration) Average acceleration is defined as the change of velocity,
+// divided by the time taken to make the change, as given by the following formula.
 
 import java.util.Scanner;
 
