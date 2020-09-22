@@ -11,15 +11,16 @@ import java.util.Scanner;
 public class Exercise_03_35 {
     //Start
     public static void main(String[] args) {
-        //Runs userInterface method
-        userInterface();
-
+        //Runs userInterface method, added fori loop to let user prompt 5 times.
+        for (int i = 0; i < 5; i++) {
+            userInterface();
+        }
     }
 
     //Interface method obtaining variables and runs evenOrOdd method
     static void userInterface() {
         //prompt user to enter an integer
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer: ");
         Scanner input = new Scanner(System.in);
         //sets input to variable int "number"
         int number = input.nextInt();
