@@ -8,6 +8,7 @@
 package Chap5.Exercise_05_02;
 
 import java.util.Random;
+
 //Function class, holds methods and variables.
 public class Function {
     static Random random = new Random();
@@ -25,11 +26,13 @@ public class Function {
         number1 = random.nextInt(12);
         return number1;
     }
+
     //method creating random number2 between 0-12
     static int genererateNumber2() {
         number2 = random.nextInt(12);
         return number2;
     }
+
     //Method returning results
     //Expecting user input "answer", numb1 and numb2, originally generated in methods above
     static String computeResult(int answer, int numb1, int numb2) {
@@ -42,6 +45,7 @@ public class Function {
             return wrong;
         }
     }
+
     //Method stopping testtime, and returns in seconds.
     static String timeResult() {
         long endTime = System.currentTimeMillis();

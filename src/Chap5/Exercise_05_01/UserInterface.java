@@ -6,6 +6,7 @@
  * 01-10-2020
  */
 package Chap5.Exercise_05_01;
+
 import java.util.Scanner;
 
 public class UserInterface {
