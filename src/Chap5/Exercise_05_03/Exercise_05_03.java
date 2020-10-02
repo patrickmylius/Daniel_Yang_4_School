@@ -11,27 +11,30 @@ import java.util.Scanner;
 
 public class Exercise_05_03 {
     public static void main(String[] args) {
+        //declare vars
+        int celcius = 0;
+        int fahrenheit = 0;
+        String space = "  ";
 
-        System.out.println("Celcius\t\t\tFahrenheit");
-        System.out.println("====================");
-        fahrenheit(2);
-        for (int x = 0; x <= 200; x++) {
-            System.out.print(x);
-            System.out.print("\t\t\t");
-            System.out.print(fahrenheit(x));
-            System.out.println();
+        //souts header of table
+        System.out.println("CELCIUS  TO  FAHRENHEIT");
+        //while statement
+        //computing table size and correct numbs
+        //table is executed until celcius is equal to 100
+        while (celcius <= 100) {
+            fahrenheit = (int) (1.8 * celcius) + 32;
+            System.out.println(celcius + space + "      |      " + fahrenheit);
+            celcius += 5;
+            //if celcius is tens, set space
+            if (celcius == 10) {
+                space = " ";
+            }
+            //if celcius is hundreds, remove space
+            if (celcius == 100) {
+                space = "";
+            }
         }
-
     }
-
-    private static double fahrenheit(int x) {
-        return x;
-    }
-
-
-    static double fahrenheit(double celcius) {
-        return ((5.0 / 9.0) * (celcius + 32));
-    }
-    }
+}
 
 
