@@ -9,7 +9,7 @@ package Chap5.Exercise_05_05;
 
 import Chap5.Exercise_05_01.UserInterface;
 
-public class Main {
+public class Exercise_05_05 {
     public static void main(String[] args) {
         //Declares vars used to calculate table
         int celcius = 0;
