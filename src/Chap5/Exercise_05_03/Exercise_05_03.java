@@ -19,7 +19,7 @@ public class Exercise_05_03 {
         //souts header of table
         System.out.println("CELCIUS  TO  FAHRENHEIT");
         //while statement
-        //computing table size and correct numbs
+        //computing table size and correct convertion
         //table is executed until celcius is equal to 100
         while (celcius <= 100) {
             fahrenheit = (int) (1.8 * celcius) + 32;
