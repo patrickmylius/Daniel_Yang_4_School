@@ -18,12 +18,14 @@ public class Exercise_05_03 {
 
         //souts header of table
         System.out.println("CELCIUS  TO  FAHRENHEIT");
+        System.out.println("-----------------------");
         //while statement
         //computing table size and correct convertion
         //table is executed until celcius is equal to 100
         while (celcius <= 100) {
             fahrenheit = (int) (1.8 * celcius) + 32;
             System.out.println(celcius + space + "      |      " + fahrenheit);
+            //adds celcius with 5 on each row
             celcius += 5;
             //if celcius is tens, set space
             if (celcius == 10) {
