@@ -16,6 +16,7 @@ package Chap5.Exercise_05_08;
 
 public class Main {
     public static void main(String[] args) {
+        //Calls userinterface class, executes promptUser method
         UserInterface.promptUser();
     }
 }
