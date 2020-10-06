@@ -5,7 +5,7 @@
  * Zealand ErhvervsAkademi - 4700
  * 05-10-2020
  */
-package Chap5.Exercise_05_06;
+package Chap5.Exercise_05_08;
 
 
 import java.util.Scanner;
@@ -24,8 +24,13 @@ public class UserInterface {
 
         fillArrays(nameArray, scoreArray);
 
-        System.out.println("Students and Scores are: ");
-        printArray(nameArray, scoreArray, numbOfStudents);
+        System.out.println("Students and Scores are: \n");
+        int finalPrint = printArray(nameArray, scoreArray, numbOfStudents);
+
+        System.out.println("Highest score achiev amongst students: \n");
+        System.out.println(finalPrint);
+
+
     }
 
     static void fillArrays(String[] nameArray, int[] scoreArray) {
@@ -38,13 +43,15 @@ public class UserInterface {
         }
     }
 
-    static String[] printArray(String[] nameArray, int[] scoreArray, int numbOfStudents) {
+    public static int printArray(String[] nameArray, int[] scoreArray, int numbOfStudents) {
 
-        String HighScoreStudent = Function.computeHighestScore(nameArray, scoreArray);
+        int highScoreStudent = Function.computeHighestScore(scoreArray);
         for (int i = 0; i < numbOfStudents ; i++) {
             System.out.println(nameArray[i] + ": " + scoreArray[i] + "\n");
 
+
         }
+        return highScoreStudent;
     }
 }
 

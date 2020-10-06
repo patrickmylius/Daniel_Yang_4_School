@@ -5,7 +5,7 @@
  * Zealand ErhvervsAkademi - 4700
  * 05-10-2020
  */
-package Chap5.Exercise_05_06;
+package Chap5.Exercise_05_08;
 
 /**
  * Find the highest score
