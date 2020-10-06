@@ -46,7 +46,7 @@ public class UserInterface {
     public static int printArray(String[] nameArray, int[] scoreArray, int numbOfStudents) {
 
         int highScoreStudent = Function.computeHighestScore(scoreArray);
-        for (int i = 0; i < numbOfStudents ; i++) {
+        for (int i = 0; i < numbOfStudents; i++) {
             System.out.println(nameArray[i] + ": " + scoreArray[i] + "\n");
 
 
