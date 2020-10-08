@@ -5,7 +5,9 @@
  * Zealand ErhvervsAkademi - 4700
  * 06-10-2020
  */
-package Chap4;
+package Chap4.Exercise_04_12;
+
+import java.util.Scanner;
 
 /**
  * Hex to binary
@@ -15,5 +17,9 @@ package Chap4;
 //its corresponding binary number.
 //For an incorrect input, display invalid input
 
-public class Exercise_04_12 {
+public class Main {
+    public static void main(String[] args) {
+        //Calls UserInterface class, executes promp user method
+       UserInterface.promptUser();
+    }
 }
