@@ -1,14 +1,46 @@
 # CHAPTER SUMMARY - Chapter 5 - Loops.
-1. To write programs for executing statements repeatedyly using a while loop
-2. To write loops for the guessing number problem.
-3. To follow the loop design strategy to develop loops.
-4. To control a loop with the user confirmation or a sentinel value
-5. To obtain large input from a file using input redirection rather than typing from the keyboard
-6. To write loops using do-while
-7. To write loops using for statements
-8. To discover the similarities and differences of three types of loop statements
-9. To write nested loops
-10. To learn the techniques for minimizing numerical errors
-11. To implement programs control break and continue
-12. To process characters in a string using a loop in a case study for checking palindrome
-13. To write a program that displays prime numbers.
+1. There are three types of repetition statements: the while loop, the do-while loop,
+and the for loop.
+
+2. The part of the looop that contains the statements to be repeated is called the loop
+body.
+
+3. A one-time execution of a loop body is referred to as an iteration of the loop.
+
+4. An infinite loop is a statement that executes infinitely.
+
+5. In designing loops. you need to consider both the loop control structure
+and the loop body.
+
+6. The while loop checks the loop-continuation-coditions first. If the condition is
+true, the loop body is executed; if it is false, the loop terminates.
+
+7. The do-while loop is similar to the while loop., except the do-while loop executes
+the loop body first then checks the loop-continuation-condition to decide whether 
+to continue or to terminate.
+
+8. The while loop and the do-while loop often are used then number of repetitions is
+not predetermined.
+
+9. A sentinel value is a special value that signifies the end of the loop.
+
+10. the for loop generally is used to execute a loop body a fixed number of times.
+
+11. The for loop control has three parts. The first part is an initial action
+that often initializes a control variable. The second part, the 
+loop-continuation-condition, determines whether the loop body is to be executed.
+The third part is executed after each iteration and is often used to adjust
+the control variable. Usually, the loop control variables are initialized
+and changed in the control structure.
+
+12. The while loop and for loop are called pretest loops because the continuation
+condition is checked before loop body is executed.
+
+13. The do-while loop is called a posttest because the condition is checked
+after the loop body is executed.
+
+14. Two keyboards break and continue can be used in a loop.
+
+15. The break keyuword immediatly ends the innermost loop, which contains the break.
+
+16. The continue keyword only ends the current iteration.
