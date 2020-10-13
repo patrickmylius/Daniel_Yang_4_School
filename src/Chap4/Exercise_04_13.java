@@ -7,6 +7,8 @@
  */
 package Chap4;
 
+import java.util.Scanner;
+
 /**
  * Vowel or consonant ?
  */
@@ -16,4 +18,12 @@ package Chap4;
 //display invalid input.
 
 public class Exercise_04_13 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+
+        System.out.print("Enter a letter: ");
+        String letter = input.next();
+
+    }
 }
