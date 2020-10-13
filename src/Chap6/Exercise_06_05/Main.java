@@ -19,4 +19,9 @@ package Chap6.Exercise_06_05;
 //to display them in decreasing order.
 
 public class Main {
+    public static void main(String[] args) {
+        //Calls user interface class, executes promptUser method
+        UserInterface.promptUser();
+
+    }
 }
