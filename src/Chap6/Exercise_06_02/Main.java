@@ -7,9 +7,15 @@
  */
 package Chap6.Exercise_06_02;
 
-/** Sum the digits in an integer */
+/**
+ * Sum the digits in an integer
+ */
 //Write a method that computes the sum of the digits in an integer.
 //Use public static int sumDigits(long n)
 
 public class Main {
+    public static void main(String[] args) {
+        //Calls user interface class and executes method
+        UserInterface.promptUser();
+    }
 }
