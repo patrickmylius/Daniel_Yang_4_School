@@ -22,7 +22,7 @@ public class Function {
             return sumInt;
         }
         //Select this if 3 digits input
-        if (n >= 100 && n <= 999) {
+        else if (n >= 100 && n <= 999) {
             long belowTens = n % 10;
             n /= 10;
             long tens = n % 10;
@@ -35,7 +35,7 @@ public class Function {
             return sumInt;
         }
         //Select this if 4 digits input
-        if (n >= 1000 && n <= 9999) {
+        else if (n >= 1000 && n <= 9999) {
             long belowTens = n % 10;
             n /= 10;
             long tens = n % 10;
@@ -47,6 +47,7 @@ public class Function {
             //Computes sum and typeCast it to int "sumInt"
             long sum = belowTens + tens + hundreds + thousands;
             int sumInt = (int) sum;
+
             return sumInt;
 
         } else return 0;
