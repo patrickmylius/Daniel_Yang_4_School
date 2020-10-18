@@ -21,7 +21,20 @@ public class Function {
 
         //sorts doubles low - high
         Arrays.sort(numbers);
+        double sortedNumbers[] = swap(numbers);
+
+
         //return sorted doubles
+        return sortedNumbers;
+    }
+    //method added, to print numbers from high to low.
+    //method takes double array, returns double array
+    public static double[] swap(double[] numbers){
+        //swaps values, array posis 0 and 2
+        double temp = numbers[0];
+        numbers[0] = numbers[2];
+        numbers[2] = temp;
+
         return numbers;
     }
 }

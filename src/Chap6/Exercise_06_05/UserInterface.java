@@ -27,6 +27,7 @@ public class UserInterface {
         //sets return to result
         double[] result = Function.displaySortedNumber(numbers);
 
+
         //souts arrays as a string
         System.out.printf(" The result : %s", Arrays.toString(result));
 
