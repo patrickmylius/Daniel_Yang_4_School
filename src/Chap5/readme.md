@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 5 - Loops.
+# CHAPTER SUMMARY
+###Chapter 5 - Loops.
 1. There are three types of repetition statements: the while loop, the do-while loop,
 and the for loop.
 

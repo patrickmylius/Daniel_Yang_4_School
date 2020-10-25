@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 3 - Selektions
+# CHAPTER SUMMARY 
+###Chapter 3 - Selektions
 1. A boolean-type variable can store a true or false value.
 2. The relational operators (<, <=, ==, !=, >, and >=) yield a Boolean value.
 3. Selection statements are used for programming with alternative courses of actions. There are several types of selection statements: one-way if-else statements, switch statements, and conditional operators.

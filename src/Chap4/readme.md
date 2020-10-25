@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 4 - Mathematical functions, characters and strings.
+# CHAPTER SUMMARY
+### Chapter 4 - Mathematical functions, characters and strings.
 1. Java provides the mathematical methods sin, cos, tan, asin, acos, atan, toRadians
 , toDegrees, exp, log, log10, pow, sqrt, ceil, floor, rint, round, min, max, abs
 and random in the Math class for performing mathematical function.

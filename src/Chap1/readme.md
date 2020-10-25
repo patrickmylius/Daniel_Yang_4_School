@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 1 - Introduction to computers, programs, and Java
+# CHAPTER SUMMARY
+###Chapter 1 - Introduction to computers, programs, and Java
 1. A computer is an electronic device that stores and processes data.
 2. A computer includes both hardware and software
 3. hardware is the physical aspect of the computer that can be touched

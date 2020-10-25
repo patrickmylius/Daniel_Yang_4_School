@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 6 - Methods.
+# CHAPTER SUMMARY
+### Chapter 6 - Methods.
 1. Making programs modular and reusable is one of the central goals in software
 engineering. Java provides many powerful constructs that help to achieve this goal.
 Methods are one such construct.

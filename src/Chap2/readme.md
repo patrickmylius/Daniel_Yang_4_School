@@ -1,4 +1,5 @@
-# CHAPTER SUMMARY - Chapter 2 - Elementary programming
+# CHAPTER SUMMARY 
+ ###Chapter 2 - Elementary programming
 1. Identifiers are names for naming elements such as variables, constants, methods, classes and packages in a program.
 2. An identifier is a sequence of characters that consists of letters, digits, underscores (_), and dollar signs ($). An identifier must start with a letter or an underscore. It cannot start with a digit. An identifier cannot be a reserved woord. An identifier can be of any length.
 3. Variables are used to store data in a program. To declare a variable is to tell the compiler what type of data a variable can hold.
