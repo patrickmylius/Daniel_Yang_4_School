@@ -53,7 +53,5 @@ public class TestCircle {
         System.out.println("The perimeter of the circle of radius " + circle2.radius + " is: " + circle2.getPerimeter());
         System.out.println("\n");
 
-        //Define the circle class with two constructors
-
     }
 }
