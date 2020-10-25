@@ -9,24 +9,31 @@ package Chap9.Exercise_09_01;
 
 public class Rectangel {
 
-    double width = 1;
-    double height = 1;
+    //declare width and height
+    double width;
+    double height;
 
+    //Construct a rectangel with width 4 and height 40
     Rectangel() {
     width = 4;
     height = 40;
     }
-
+    //Construct a rectangel with specified width and height
     Rectangel(double newWitdh, double newHeight) {
     width = newWitdh;
     height = newHeight;
     }
-
+    //Compute and return the area of this rectangel
     double getArea() {
        return width * height;
     }
-
+    //Compute and return the perimeter of this rectangel
     double getPerimeter() {
         return width + width + height + height;
+    }
+    //Set new height and width for a rectangel
+    void setWidthAndHeight(double newWidth, double newHeight) {
+        height = newHeight;
+        width = newWidth;
     }
 }
