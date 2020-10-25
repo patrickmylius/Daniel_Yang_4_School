@@ -5,6 +5,8 @@
  * Zealand ErhvervsAkademi - 4700
  * 25-10-2020
  */
+
+
 package Chap9.Exercise_09_02;
 
 public class Stock {

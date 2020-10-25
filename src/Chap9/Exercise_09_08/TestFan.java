@@ -5,7 +5,7 @@
  * Zealand ErhvervsAkademi - 4700
  * 25-10-2020
  */
-package Chap9.Exercise_09_08;
+
 /**********************************************************************************
  * (The Fan class) Design a class named Fan to represent a fan. The class contains:*
  *                                                                                 *
@@ -28,6 +28,8 @@ package Chap9.Exercise_09_08;
  *   the second object. Display the objects by                                     *
  * invoking their toString method.                                                 *
  /*********************************************************************************/
+
+package Chap9.Exercise_09_08;
 
 public class TestFan {
     public static void main(String[] args) {
