@@ -12,3 +12,13 @@
 3. Chapter - Selektions (including readme.md with Chapter summary)
 
 4. Chapter - Mathematical functions, characters, and strings (including readme.md with Chapter summary)
+
+5. Chapter - Loops (including readme.md with Chapter summery)
+
+6. Chapter - Methods (including readme.md with Chapter summary)
+
+7. Chapter - Single-Dimensional Arrays (including readme.md with Chapter summary)
+
+8. Chapter - Multidimensional Arrays (including readme.md with Chapter summary)
+
+9. Chapter - Objects and classes (including readme.md with Chapter summary)
