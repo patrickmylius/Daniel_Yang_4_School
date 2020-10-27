@@ -1,6 +1,6 @@
 #CHAPTER SUMMARY
 ###Chapter 7 - SINGLE-DIMENSIONAL ARRAYS.
-1. A variable is declared as an array type using the syntanx elementType[] arrayRefVar or elementType 
+1. A variable is declared as an array type using the syntax elementType[] arrayRefVar or elementType 
 array RefVar[]. The style elementType[] arrayRefVar is preferred, although elementType arrayRefVar[] is legal.
 
 2. Unlike declarations for primitive data type variables, the declaration of an array variable
