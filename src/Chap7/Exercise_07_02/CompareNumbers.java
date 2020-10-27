@@ -9,6 +9,12 @@ package Chap7.Exercise_07_02;
 
 import java.util.Scanner;
 
+/************************************************************************************
+ * (Compare numbers) Write a program that reads 11 integers, compares each          *
+ * integer with the 11.th integer, and displays whether the integers are "greater"  *
+ * "smaller" or "equal" to the 11.th integer                                        *
+ ********************************************************************************** */
+
 public class CompareNumbers {
     public static void main(String[] args) {
         //declare arrays integers and numbers
@@ -27,6 +33,7 @@ public class CompareNumbers {
         compareNumbers(numbers, integers);
 
     }
+
     //compareNumbers method, taking array numbers and array integers
     //runs if statements 11 times
     //if condition pass, sout the [i] numbers value compared to the 11 number.
