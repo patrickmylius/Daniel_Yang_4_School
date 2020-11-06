@@ -4,7 +4,7 @@
 1. The procedural paradigm focuses on designing methods. The object-oriented paradigm couples
 data and methods together into objects. Software design using the object-oriented paradigm 
 focuses on objects and operations on objects. The object-oriented approach
-combines the power of the prodecdural paradigm with an added dimension that integrates data
+combines the power of the prodcural paradigm with an added dimension that integrates data
 with operations into objects.
 
 2. Many Java methods require the use of objects as arguments. Java offers a convenient
