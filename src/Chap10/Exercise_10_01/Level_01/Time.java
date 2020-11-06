@@ -23,9 +23,6 @@ public class Time {
         this.hour = currentTime.getHours();
         this.minute = currentTime.getMinutes();
         this.second = currentTime.getSeconds();
-        System.out.println("Clock is: " + hour + ":" + minute + ":" + second);
-
-
     }
 
     Time() {
@@ -35,7 +32,7 @@ public class Time {
 
     public static void main(String[] args) {
         Time time1 = new Time();
-        System.out.println(time1.currentTime);
+        System.out.println("Clock is: " + time1.hour + ":" + time1.minute + ":" + time1.second);
 
     }
 }
