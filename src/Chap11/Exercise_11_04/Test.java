@@ -18,7 +18,7 @@ public class Test {
         ArrayList<Integer> list = new ArrayList<Integer>();
 
         //Prompting user to enter a number sequence
-        System.out.println("Enter a sequence of numbers, ending with 0");
+        System.out.print("Enter a sequence of numbers, ending with 0: ");
         Integer numb = input.nextInt();
         while (numb.intValue() != 0) {
             list.add(numb);
